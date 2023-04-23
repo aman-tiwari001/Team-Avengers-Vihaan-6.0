@@ -24,6 +24,34 @@ header .logo
   text-transform: uppercase;
   cursor: pointer;
 }
+.flex {
+ 
+  background: yellow;
+  border: 2px solid black;
+}
+.signup, .login {
+  padding: 4px 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 37%;
+  right: 23%;
+}
+
+.signup:hover {
+  background-color: skyblue;
+}
+
+.login:hover {
+  font-size: 1.25rem;
+}
+
+.signup {
+  border: 2px solid white;
+  border-radius: 20px;
+  right: 14%;
+}
 .toggle
 {
   position: relative;
@@ -90,7 +118,7 @@ header .logo
 
 .text h2
 {
-  font-size: 5em;
+  font-size: 4.2em;
   font-weight: 800;
   color: #fff;
   line-height: 1em;
@@ -98,7 +126,7 @@ header .logo
 }
 .text h3
 {
-  font-size: 4em;
+  font-size: 3.8em;
   font-weight: 700;
   color: #fff;
   line-height: 1em;
@@ -111,6 +139,7 @@ header .logo
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
+  font-size: 1.3rem;
 }
 .text a
 {
