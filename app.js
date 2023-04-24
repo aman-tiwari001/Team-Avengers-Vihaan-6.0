@@ -49,6 +49,30 @@ app.get('/local_guide', (req, res) =>{
   res.render('local_guide');
 });
 
+app.get('/hotel', (req, res) =>{
+  res.render('hotel');
+});
+
+app.get('/flights', (req, res) =>{
+  res.render('flights');
+});
+
+app.get('/restraunts', (req, res) =>{
+  res.render('restraunts');
+});
+
+app.get('/support', (req, res) =>{
+  res.render('support');
+});
+
+app.get('/tourist_places', (req, res) =>{
+  res.render('tourist_places');
+});
+
+app.get('/trains', (req, res) =>{
+  res.render('trains');
+});
+
 app.get('/bus', (req, res) => {
   res.render('bus');
 })

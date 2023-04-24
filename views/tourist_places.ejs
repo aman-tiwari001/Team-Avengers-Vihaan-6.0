@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tourist Places by City Search</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/tourist_places.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/navbar.css">
+  </head>
+  <body>
+    <!-- NavBar Html -->
+    <nav class="navbar">
+        <div class="logo">TRAVEL MANIA</div>
+        <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Support</a></li>
+        </ul>
+        <a href="#" class="user"><img id="user" src="user.png" alt="user"></a>
+    </nav>
+
+    <h1>Looking for famous tourist places?</h1>
+    
+    <form id="search-form">
+      <input type="text" id="city-name" name="city-name" placeholder="Search by city name..." required>
+      <input type="submit" value="Search">
+    </form>
+    
+    <div class="results">
+      <h2>Results for <span id="searched-city"></span>:</h2>
+      <ul id="places-list"></ul>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

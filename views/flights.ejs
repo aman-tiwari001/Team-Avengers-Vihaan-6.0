@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Booking</title>
+	<link rel="stylesheet" type="text/css" href="/public/css/flights.css"> 
+	<link rel="stylesheet" type="text/css" href="/public/css/navbar.css"> 
+</head>
+<body>
+	<!-- NavBar Html -->
+    <nav class="navbar">
+        <div class="logo">PLANINDIA</div>
+        <ul class="navlist">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/support">Support</a></li>
+        </ul>
+        <a href="#" class="user"><img id="user" src="user.png" alt="user"></a>
+    </nav>
+	<main>
+		<h1>Find Your Flight</h1>
+		<form>
+			<label for="from">From:</label>
+			<input type="text" id="from" name="from" placeholder="Enter a city or airport" required>
+			<label for="to">To:</label>
+			<input type="text" id="to" name="to" placeholder="Enter a city or airport" required>
+			<label for="depart">Departure Date:</label>
+			<input type="date" id="depart" name="depart" required>
+			<label for="return">Return Date:</label>
+			<input type="date" id="return" name="return">
+			<label for="num-passengers">Number of Passengers:</label>
+			<input type="number" id="num-passengers" name="num-passengers" min="1" max="8" required>
+			<button type="submit">Find Flights</button>
+		</form>
+	</main>
+</body>
+</html>
