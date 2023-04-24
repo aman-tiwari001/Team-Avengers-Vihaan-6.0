@@ -44,7 +44,15 @@ app.get("/secret", isLoggedIn, function (req, res) {
 app.get("/register", function (req, res) {
     res.render("register");
 });
-  
+
+app.get('/local_guide', (req, res) =>{
+  res.render('local_guide');
+});
+
+app.get('/bus', (req, res) => {
+  res.render('bus');
+})
+
 // Handling user signup
 app.post("/register", async (req, res) => {
     const user = await User.create({
