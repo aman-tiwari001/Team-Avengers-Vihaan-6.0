@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans";
+    color: white;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("https://www.pixelstalk.net/wp-content/uploads/images5/Beach-Aesthetic-Wallpaper-HD-Free-download-620x349.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px black;
+
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color:#222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background: turquoise;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: 0.7;
+    transition:  opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+
+    text-decoration: : none;
+    color : white;
+    opacity: .6;
+    transition:opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+
+}

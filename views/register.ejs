@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link href= "/public/css/signup.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/public/css/navbar.css">
+</head>
+<body>
+    <!-- NavBar Html -->
+    <nav class="navbar">
+        <div class="logo">TRAVEL MANIA</div>
+        <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Support</a></li>
+        </ul>
+        <a href="#" class="user"><img id="user" src="assets/user.png" alt="user"></a>
+    </nav>
+	<div class="container">
+		<h1>Sign Up</h1>
+		<form class="signup" action="/register" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<label for="confirm-password">Confirm Password:</label>
+			<input type="password" id="confirm-password" name="confirm-password" required>
+			<button type="submit">Sign Up</button>
+		</form>
+	</div>
+</body>
+</html>
