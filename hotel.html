@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Booking</title>
+	<link rel="stylesheet" type="text/css" href="hotel.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+</head>
+<body>
+	 <!-- NavBar Html -->
+     <nav class="navbar">
+        <div class="logo">TRAVEL MANIA</div>
+        <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Support</a></li>
+        </ul>
+        <a href="#" class="user"><img id="user" src="user.png" alt="user"></a>
+    </nav>
+	<main>
+		<h1>Book a Hotel Room</h1>
+		<form>
+			<label for="checkin-date">Check-in Date:</label>
+			<input type="date" id="checkin-date" name="checkin-date" required>
+			<label for="checkout-date">Check-out Date:</label>
+			<input type="date" id="checkout-date" name="checkout-date" required>
+			<label for="room-type">Room Type:</label>
+			<select id="room-type" name="room-type" required>
+				<option value="">Select a Room Type</option>
+				<option value="standard">Standard</option>
+				<option value="deluxe">Deluxe</option>
+				<option value="premium">Premium</option>
+			</select>
+			<label for="num-guests">Number of Guests:</label>
+			<input type="number" id="num-guests" name="num-guests" min="1" max="4" required>
+			<label for="city">Enter city name:</label>
+			<input type="text" id="city" name="city" min="1" max="4" required>
+			<button type="submit">Search</button>
+		</form>
+	</main>
+	
+</body>
+</html>
