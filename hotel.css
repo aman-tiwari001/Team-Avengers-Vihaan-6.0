@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    background-image: url(assets/land.jpg);
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 50px;
+    background: linear-gradient(blue, skyblue);
+    opacity: 0.8;
+    border-radius: 30px;
+    border: 5px solid blue;
+
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+	font-size: 1.3rem;
+}
+
+input, select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	max-width: 400px;
+}
+
+select {
+	appearance: none;
+	background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png");
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 20px 20px;
+	padding-right: 40px;
+}
+
+button {
+	margin-top: 30px;
+	padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background: linear-gradient(#013cff, #0ea3ee);
+    background: linear-gradient();
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
