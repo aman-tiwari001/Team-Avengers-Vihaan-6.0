@@ -1,0 +1,71 @@
+.container {
+	max-width: 500px;
+	margin: 10px auto;
+    border: 5px solid rgb(25, 0, 255);
+    background-color: rgb(40, 118, 227);
+    opacity: 0.8;
+	text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins';
+    box-shadow: 12px 11px 60px rgb(4, 4, 141);
+    
+}
+
+.signup label, input {
+    font-size: 1.3rem;
+    margin: 3px 10px;
+}
+
+
+
+body {
+    background: url(assets/dolphins.jpg);
+    background-position: top;
+}
+
+h1 {
+	margin-top: 50px;
+	font-size: 36px;
+}
+
+form {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+input {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	max-width: 400px;
+}
+
+button {
+	margin-top: 30px;
+    margin-bottom: 10px;
+	padding: 10px 30px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3E8E41;
+
+}
