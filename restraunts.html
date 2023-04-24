@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>Foodcubo</title>
+    <link rel="stylesheet" href="restraunts.css" />
+  </head>
+
+  <body>
+    <div class="landing">
+      <div class="landing-interact">
+        <div class="navbar">
+          <div class="branding">
+           
+            <div class="logo-title">TravelMania</div>
+          </div>
+          
+                <div class="links">
+                    <div>
+                        <button class="nav-button login">HOME</button>
+                    </div>
+                    <div>
+                        <button class="nav-button sign">SUPPORT</button>
+                    </div>
+                </div>
+                
+        </div>
+        <div class="title">
+          <div id="typewriter" class="changing"></div>
+          <div class="sub-title">Find awesome restaurants near you.</div>
+        </div>
+        <div class="search">
+          <select
+            id="selection"
+            onchange="updateSelection(); document.getElementById('search').href=`./static/list.html?q=${this.value}`;"
+            class="search-bar"
+            type="text"
+            placeholder="Enter your delivery location"
+          >
+            <option value="" selected style="display: none"
+              >Select your location</option
+            >
+            <option value="11">Ahmedabad</option>
+            <option value="3">Bangalore</option>
+            <option value="7">Chennai</option>
+            <option value="1">Delhi</option>
+            <option value="6">Hyderabad</option>
+            <option value="2">Kolkata</option>
+            <option value="3">Mumbai</option>
+            <option value="5">Pune</option>
+          </select>
+          <a id="search" href="#"
+            ><button
+              disabled
+              id="search-button"
+              class="search-bar search-submit"
+              type="submit"
+            >
+              Search
+            </button></a
+          >
+          <script>
+            function updateSelection() {
+              console.log("lol");
+              if (document.getElementById("selection").value == "") {
+                document.getElementById("search-button").disabled = true;
+              } else {
+                document.getElementById("search-button").disabled = false;
+              }
+            }
+          </script>
+        </div>
+        <div class=" cities ">
+          <div class="cities-title">Book your table from here with TravelMania in your trip.</div>
+          
+        </div>
+      </div>
+      <div class="landing-images ">
+        <img class="landing-image " src="assets/restro.jpg" />
+      </div>
+    </div>
+ 
+ 
+      
+
+    <script>
+      const alertFunction = () => {
+        window.alert("App is in development... or is it?");
+      };
+    </script>
+    <script src="./src/js/core.js"></script>
+    <script type="text/javascript">
+      const instance = new Typewriter("#typewriter", {
+        strings: [
+          "Feeling hungry?",
+          "Unexpected guests?",
+          "Cooking gone wrong?",
+          "Game night?",
+          "Movie marathon?"
+        ],
+        autoStart: true,
+        loop: true
+      });
+    </script>
+    <script>
+
+    </script>
+  </body>
+</html>

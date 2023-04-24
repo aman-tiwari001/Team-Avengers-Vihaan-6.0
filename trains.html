@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="trains.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <!-- NavBar Html -->
+    <nav class="navbar">
+        <div class="logo">TRAVEL MANIA</div>
+        <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Support</a></li>
+        </ul>
+        <a href="#" class="user"><img id="user" src="user.png" alt="user"></a>
+    </nav>
+	<main>
+		<h1>Find Your Trains</h1>
+		<form>
+			<label for="from">From:</label>
+			<input type="text" id="from" name="from" placeholder="Enter station 1" required>
+			<label for="to">To:</label>
+			<input type="text" id="to" name="to" placeholder="Enter station 2" required>
+			<label for="depart">Departure Date:</label>
+			<input type="date" id="depart" name="depart" required>
+			<label for="return">Return Date:</label>
+			<input type="date" id="return" name="return">
+			<label for="num-passengers">Number of Passengers:</label>
+			<input type="number" id="num-passengers" name="num-passengers" min="1" max="8" required>
+			<button type="submit">Find Trains</button>
+		</form>
+	</main>
+</body>
+</html>
