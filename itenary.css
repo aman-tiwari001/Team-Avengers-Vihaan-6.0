@@ -44,4 +44,5 @@
 .size:hover {
     background:linear-gradient(blue,rgb(7, 166, 229));
     cursor: pointer;
+    transform: scale(1.2);
 }
