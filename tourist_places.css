@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    background: url(assets/land.jpg);
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 50px 0px;
+  }
+  
+  #search-form {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  input[type=text] {
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 50%;
+  }
+  
+  input[type=submit] {
+    background-color: #283ff0;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  input[type=submit]:hover {
+    background-color: #1ca0c8;
+  }
+  
+  .results {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .results h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .results ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .results li {
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .results li:hover {
+    background-color: #ddd;
+  }
+  
